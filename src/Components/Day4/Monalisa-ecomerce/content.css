@@ -1,0 +1,18 @@
+.wrapper{
+    width:100%;
+    height:100%;
+    /* background-color: #a2d2ff; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px auto 80px; 
+     */
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        margin-top: 27rem;
+    }
+}

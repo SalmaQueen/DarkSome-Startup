@@ -1,0 +1,75 @@
+.image{
+  height: auto;
+  max-height: 450px;
+  width: auto;
+  max-width: 450px;
+    background-size:cover;
+    object-fit:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    border-radius:20px;
+    
+  }
+
+  /* .container{
+    width:100%;
+    height:500px;
+    background-color:#191919;
+    
+  } */
+
+  .card-details{
+    /* height: 50%; */
+     padding:10px;
+     /* display: flex;
+     flex-direction: column;
+     justify-content: space-around; */
+     
+  }
+  .cards{
+    box-shadow:4px 2px 4px 4px rgba(0,0,0,0.5);
+    border-radius:20px;
+    width:350px;
+    height:500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: masonry; */
+    gap: 20px;
+    /* place-items: center; */
+    /* display:flex;
+    justify-content:center; */
+    background-color:white;
+  
+    color:black;
+    /* align-items:center;
+    flex-direction:column; */
+  }
+  .buy-now{
+    border-radius:30px;
+    width:50%;
+    
+    background-color:white;
+    font-size:18px;
+    background-color:rgb(247, 127, 0);
+    color:white;
+    
+    
+    
+  }
+  h3,.read-more{
+    font-size:18px;
+    color:rgb(247, 127, 0);
+  }
+  .card-color{
+    color:rgb(247, 127, 0);
+    font-size:28px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+  }
+  .read-more:hover{
+    background-color:#191919 ;
+  cursor: pointer;
+    color:white;
+    /* transform: translate(20deg); */
+  }
